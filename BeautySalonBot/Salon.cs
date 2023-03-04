@@ -1,4 +1,4 @@
-﻿namespace BeautySalonBot
+﻿namespace BeautySalonBot.Model
 {
     public class Salon
     {
