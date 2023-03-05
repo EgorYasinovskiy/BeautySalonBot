@@ -7,6 +7,8 @@ namespace BeautySalonBot.Model
         public string Description { get; set; }
         public string Category { get; set; }
         public TimeSpan Duration { get; set; }
+        public Guid SalonId { get; set; }
+        public virtual Salon Salon { get; set; }
         public Service()
         {
         }
