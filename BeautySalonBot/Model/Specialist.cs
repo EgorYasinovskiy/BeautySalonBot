@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BeautySalonBot.Model
+namespace BeautySalonBot.Domain.Model
 {
     public class Specialist
     {

@@ -1,11 +1,11 @@
-﻿namespace BeautySalonBot.Model
+﻿namespace BeautySalonBot.Domain.Model
 {
     public class Calendar
     {
 
         public Guid Id { get; set; }
-        public string Name { get; set; } 
-        public List<DateOnly> AdditionalHolidays { get; set; } 
+        public string Name { get; set; }
+        public List<DateOnly> AdditionalHolidays { get; set; }
         public List<DayOfWeek> WorkDays { get; set; }
         public List<DayOfWeek> Holidays { get; set; }
         public Calendar()

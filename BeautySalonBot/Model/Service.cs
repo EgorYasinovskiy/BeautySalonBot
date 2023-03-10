@@ -1,4 +1,4 @@
-namespace BeautySalonBot.Model
+namespace BeautySalonBot.Domain.Model
 {
     public class Service
     {
